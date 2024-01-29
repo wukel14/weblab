@@ -1,0 +1,26 @@
+.container {
+  text-align: center;
+  border-radius: 12px;
+}
+
+.dark-mode {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.light-mode {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.heading {
+  font-family: "Roboto";
+  font-size: 32px;
+}
+
+.button {
+  font-size: 16px;
+  border: none;
+  padding: 16px;
+  border-radius: 8px;
+}

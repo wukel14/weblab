@@ -1,0 +1,36 @@
+.NavBar-container {
+  padding: var(--m) var(--m);
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.NavBar-title {
+  color: var(--white);
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.NavBar-linkContainer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.NavBar-link {
+  color: var(--white);
+  opacity: 0.6;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.NavBar-link:visited {
+  color: var(--white);
+}
+
+.NavBar-link:hover {
+  opacity: 0.8;
+}

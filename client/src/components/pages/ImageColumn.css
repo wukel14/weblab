@@ -1,0 +1,27 @@
+.Map-header {
+  font-family: "Times New Roman", serif;
+  font-size: 40px;
+  margin-bottom: var(--m);
+  text-align: center;
+}
+
+.image-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.image-description {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.additional-description {
+  text-align: center;
+  margin-top: 10px; /* Adjust the margin to decrease space */
+}

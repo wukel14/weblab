@@ -1,0 +1,10 @@
+.Feed-header {
+  font-family: "Times New Roman", serif;
+  font-size: 40px;
+  margin-bottom: var(--m);
+}
+
+.Feed-subheader {
+  font-family: "Times New Roman", serif;
+  font-size: 30px;
+}

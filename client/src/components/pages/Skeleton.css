@@ -1,0 +1,32 @@
+.Skeleton-container {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.Skeleton-header {
+  font-family: "Times New Roman", serif;
+  font-size: 108px;
+  margin-bottom: 20px;
+}
+
+.Skeleton-loginpart {
+  font-family: "Times New Roman", serif;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.Skeleton-guest {
+  font-family: "Times New Roman", serif;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.GoogleLogin-button {
+  margin-top: 20px;
+}
+
+.DarkMode-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,52 @@
+.Card-container {
+  border: var(--darkgrey) 1px solid;
+  border-radius: var(--xs);
+  margin-top: var(--m);
+}
+
+.Card-container:first-of-type {
+  margin-top: var(--l);
+}
+
+.Card-story,
+.Card-commentSection {
+  padding: var(--m) var(--l);
+}
+
+.Card-storyUser {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.Card-storyContent {
+  font-size: 20px;
+  margin: var(--s) 0 0;
+}
+
+.Card-commentSection {
+  background-color: var(--grey);
+  border-top: 1px solid var(--darkgrey);
+}
+
+.Card-commentBody {
+  margin: 0 0 var(--s);
+}
+
+.dark-mode .Card-container {
+  background-color: var(--black);
+  color: var(--white);
+  border: var(--white) 1px solid;
+}
+
+.dark-mode .Card-storyUser {
+  color: var(--black);
+}
+
+.dark-mode .Card-commentSection {
+  background-color: var(--darkergrey);
+  border-top: 1px solid var(--white);
+}
+
+.dark-mode .Card-commentBody {
+  color: var(--black);
+}
